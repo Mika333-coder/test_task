@@ -22,6 +22,7 @@ dependencies:
   flutter_screenutil: ^5.9.0
   connectivity_plus: ^5.0.2
   dart_extensions_methods: ^2.0.0
+  floor: ^1.4.2
 
   # ui
   cupertino_icons: ^1.0.6

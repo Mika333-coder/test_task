@@ -1,16 +1,16 @@
 import 'package:get/get.dart';
-import 'package:test_task/core/presentation/views/main/main_screen.dart';
+import 'package:test_task/core/presentation/views/splash/splash_screen.dart';
 
 class AppRoutes {
   // root navigation routes
-  static const mainRoute = '/main';
+  static const splashRoute = '/';
 
   static const rootNavigationKey = 0;
 
   static final List<GetPage> _rootRoutes = [
     GetPage(
-      name: mainRoute,
-      page: () => const MainScreen(),
+      name: splashRoute,
+      page: () => const SplashScreen(),
     ),
   ];
 
